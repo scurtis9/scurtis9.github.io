@@ -7,7 +7,7 @@
  */
 
 body {
-  background-color: #f2f2f2;
+  background-color: #f9f9f9;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
@@ -21,7 +21,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
     font-weight: 300;
-    color: #333;
+    color: #3f4145;
 }
 
 
@@ -186,7 +186,7 @@ a:after {
 /* Intnro Wrap */
 
 #intro {
-	background: #2c3e50;
+	background: #3f484b;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
@@ -205,7 +205,7 @@ a:after {
 
 
 #skillswrap {
-	background: #2c3e50;
+	background: #3f484b;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
@@ -216,7 +216,7 @@ a:after {
 }
 
 #footwrap {
-	background: #2f2f2f;
+	background: #3f484b;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -236,7 +236,7 @@ a:after {
 
 #footwrap i {
 	padding-right: 8px;
-	color: #1abc9c;
+	color: #fff;
 }
 
 /* Copyright Wrap */
@@ -260,7 +260,7 @@ a:after {
 }
 
 .desc p {
-	color: #2f2f2f;
+	color: #3f4145;
 }
 
 .desc t {
@@ -275,7 +275,7 @@ a:after {
 }
 
 .desc more {
-	color: #95a5a6;
+	color: #7d8f95;
 }
 
 
