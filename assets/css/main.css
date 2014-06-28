@@ -78,6 +78,8 @@ a:after {
 ---------------------------------------------------*/
 
 #section-topbar {
+    opacity: 0.9;
+    border-color: transparent;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -154,7 +156,6 @@ a:after {
 /* Header Wrap */
 #headerwrap {
 	background: url(../img/header-bg.jpg) no-repeat center top;
-	margin-top: 60px;
 	padding-top:140px;
 	text-align:center;
 	background-attachment: relative;
@@ -181,6 +182,10 @@ a:after {
 #headerwrap h3 {
 	font-size: 20px;
 	color: white;
+}
+
+#headerwrap p {
+    padding-top: 25px;
 }
 
 /* Intnro Wrap */
