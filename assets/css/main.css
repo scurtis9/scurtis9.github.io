@@ -266,7 +266,7 @@ border: 0px solid transparent;
 }
 
 #footwrap {
-	background: #3f484b;
+	background: #6a7c83;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -279,33 +279,23 @@ border: 0px solid transparent;
 	color: white;
 }
 
+#footwrap a:hover {
+    color: #428bca;
+}
 
 #footwrap t {
 	font-weight: 700;
 }
 
 #footwrap i {
-	padding-right: 8px;
+	padding: 10px;
 	color: #fff;
 }
 
 #footwrap .icon-linkedin {
     font-size: 18px;
-    font-size: 1.8em;
+    font-size: 2em;
 }
-
-/* Copyright Wrap */
-
-#c {
-	background: #222222;
-	padding-top: 15px;
-	text-align: right;
-}
-
-#c p {
-	color: white
-}
-
 
 
 /* Global Values */
