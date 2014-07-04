@@ -1,57 +1,55 @@
- /* Author: Shane Curtis
- *
- * Project Name: Shane Curtis Personal Site
- * Version: 1.0
- */
+/* Author: Shane Curtis
+*
+* Project Name: Shane Curtis Personal Site
+* Version: 1.0
+*/
 
 body {
-  background-color: #f9f9f9;
+    background-color: #f9f9f9;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
     color: #555;
-
-    -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
-
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Raleway";
     font-weight: 300;
     color: #3f4145;
 }
-
-
 /* Paragraph & Typographic */
+
 p {
     line-height: 28px;
     margin-bottom: 25px;
 }
-
 .centered {
     text-align: center;
 }
-
 /* Links */
+
 a {
     color: white;
     word-wrap: break-word;
-
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
-
 a:hover,
 a:focus {
     color: #7b7b7b;
     text-decoration: none;
     outline: 0;
 }
-
 a:before,
 a:after {
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -60,8 +58,7 @@ a:after {
     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
-
- hr {
+hr {
     display: block;
     height: 1px;
     border: 0;
@@ -69,261 +66,222 @@ a:after {
     margin: 1em 0;
     padding: 0;
 }
-
 .navbar {
-   	opacity: 0.8;
-	border-color: transparent;
-	border-bottom: 0 none;
+    opacity: 0.8;
+    border-color: transparent;
+    border-bottom: 0 none;
 }
-
 .navbar-default {
-border-color: transparent;
-background-color: #dadada;
+    border-color: transparent;
+    background-color: #dadada;
 }
-
-
 .navbar-toggle {
-border-color: transparent;
-border: 0px solid transparent;
+    border-color: transparent;
+    border: 0px solid transparent;
 }
-
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	background-color: #16a085;
-	color: white;
+    background-color: #16a085;
+    color: white;
 }
-
 /* ==========================================================================
    Image Mask
    ========================================================================== */
 
 .grid figure {
-	margin: 0;
-	position: relative;
+    margin: 0;
+    position: relative;
 }
-
 .grid figure img {
-	width: 100%;
-	display: block;
-	position: relative;
+    width: 100%;
+    display: block;
+    position: relative;
 }
-
 .grid figcaption {
-	position: absolute;
-	top: 0;
-	left: 0;
-	padding: 20px;
-	color: #fff;
-	background: #3498db;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    color: #fff;
+    background: #3498db;
 }
-
 .grid figcaption h5 {
-	margin: 0;
-	padding-top: 0px;
-	padding-left: 20px;
-	padding-bottom: 5px;
-	color: #fff;
-	font-weight: 700;
-	text-align: left;
-	letter-spacing: 2px;
-	
+    margin: 0;
+    padding-top: 0px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    color: #fff;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 2px;
 }
-
 .grid figcaption a {
-	text-align: left;
-	padding: 5px 10px;
-	margin-left: 20px;
-	display: inline-block;
-	background: #2f2f2f;
-	color: #fff;
-	font-size: 13px;
+    text-align: left;
+    padding: 5px 10px;
+    margin-left: 20px;
+    display: inline-block;
+    background: #2f2f2f;
+    color: #fff;
+    font-size: 13px;
 }
-
 /* Caption Style */
+
 .mask figure {
-	overflow: hidden;
+    overflow: hidden;
 }
-
 .mask figure img {
-	-webkit-transition: -webkit-transform 0.4s;
-	-moz-transition: -moz-transform 0.4s;
-	transition: transform 0.4s;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
 }
-
 .no-touch .mask figure:hover img,
 .mask figure.cs-hover img {
-	-webkit-transform: translateY(-30px);
-	-moz-transform: translateY(-30px);
-	-ms-transform: translateY(-30px);
-	transform: translateY(-30px);
+    -webkit-transform: translateY(-30px);
+    -moz-transform: translateY(-30px);
+    -ms-transform: translateY(-30px);
+    transform: translateY(-30px);
 }
-
 .mask figcaption {
-	height: 50px;
-	width: 100%;
-	top: auto;
-	bottom: 0;
-	opacity: 0;
-	-webkit-transform: translateY(100%);
-	-moz-transform: translateY(100%);
-	-ms-transform: translateY(100%);
-	transform: translateY(100%);
-	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
-	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
-	transition: transform 0.4s, opacity 0.1s 0.3s;
+    height: 50px;
+    width: 100%;
+    top: auto;
+    bottom: 0;
+    opacity: 0;
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+    transition: transform 0.4s, opacity 0.1s 0.3s;
 }
-
 .no-touch .mask figure:hover figcaption,
 .mask figure.cs-hover figcaption {
-	opacity: 1;
-	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
-	-ms-transform: translateY(0px);
-	transform: translateY(0px);
-	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
-	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
-	transition: transform 0.4s, opacity 0.1s;
+    opacity: 1;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+    -moz-transition: -moz-transform 0.4s, opacity 0.1s;
+    transition: transform 0.4s, opacity 0.1s;
 }
-
 .mask figcaption a {
-	position: absolute;
-	top:10px;
-	bottom: 10px;
-	right: 30px;
+    position: absolute;
+    top: 10px;
+    bottom: 10px;
+    right: 30px;
 }
-
 /*---------------------------------------------------
 	SECTION WRAPS
 ---------------------------------------------------*/
 
 /* Header Wrap */
+
 #headerwrap {
-	background: url(../img/nexusae0_wallpaper_51.jpg) no-repeat center top;
+    background: url(../img/nexusae0_wallpaper_51.jpg) no-repeat center top;
     margin-top: 0px;
-	padding-top:140px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 500px;
-	width: 100%;
-	
+    padding-top: 140px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
-
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-
 #headerwrap h1 {
-	font-size: 80px;
-	color: white;
+    font-size: 80px;
+    color: white;
 }
-
 #headerwrap h3 {
-	font-size: 20px;
-	color: white;
+    font-size: 20px;
+    color: white;
 }
-
 #headerwrap p {
     padding-top: 25px;
 }
-
 /* Intnro Wrap */
 
 #intro {
-	background: #3f484b;
-	padding-top: 60px;
-	padding-bottom: 60px;
-	color: white;
-} 
-
-#intro h5, p {
-	color: white;
+    background: #3f484b;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
 }
-
+#intro h5,
+p {
+    color: white;
+}
 #intro i {
-	color: white;
-	font-size: 20px;
-	padding-right: 8px;
-	vertical-align: middle;
+    color: white;
+    font-size: 20px;
+    padding-right: 8px;
+    vertical-align: middle;
 }
-
-
 #skillswrap {
-	background: #3f484b;
-	padding-top: 60px;
-	padding-bottom: 60px;
-	color: white;
+    background: #3f484b;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
 }
-
-#skillswrap h5, p {
-	color: white;
+#skillswrap h5,
+p {
+    color: white;
 }
-
 #footwrap {
-	background: #6a7c83;
-	padding-top: 50px;
-	padding-bottom: 50px;
+    background: #6a7c83;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-
 #footwrap p {
-	color: white;
+    color: white;
 }
-
 #footwrap h5 {
-	color: white;
+    color: white;
 }
-
 #footwrap a:hover {
     color: #428bca;
 }
-
 #footwrap t {
-	font-weight: 700;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 700;
 }
-
 #footwrap i {
-	padding: 10px;
+    padding: 10px;
     margin-left: 30px;
-	color: #fff;
+    color: #fff;
 }
-
 #footwrap .icon-linkedin {
     font-size: 18px;
     font-size: 2em;
 }
-
-
 /* Global Values */
 
 .desc {
-	padding-top: 50px;
+    padding-top: 50px;
 }
-
 .desc p {
-	color: #3f4145;
+    color: #3f4145;
 }
-
 .desc t {
-	color: #34495e;
-	font-weight: 700;
+    color: #34495e;
+    font-weight: 700;
 }
-
 .desc imp {
-	padding: 6px;
-	color: white;
-	background: #34495e;
+    padding: 6px;
+    color: white;
+    background: #34495e;
 }
-
 .desc more {
-	color: #7d8f95;
+    color: #7d8f95;
 }
-
-
 sm {
-	font-size: 12px;
+    font-size: 12px;
 }
